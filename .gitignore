@@ -1,4 +1,22 @@
+# Installed dependencies
+# Keep package-lock.json in Git for reproducible dependency installs.
 node_modules/
+
+# Local environment files (keep example configuration shareable)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Runtime and npm logs
+*.log
+npm-debug.log*
+
+# Operating system metadata
 .DS_Store
+Thumbs.db
+Desktop.ini
+
+# Backups and temporary database files
 *.bak
 data/*.tmp.json
